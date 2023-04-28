@@ -1,0 +1,96 @@
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+header {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/764896340861105321/1359361FB449FB623134B1FEBB1C7599577575A4/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  background-color: salmon;
+  text-align: center;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto {
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.projeto img {
+  max-width: 20%;
+}
+
+.projeto h2 {
+  margin: 10px 0;
+}
+
+.projeto p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: salmon;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.Imagem2 {
+    margin-top: 20px;
+    width: auto;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+}
+
+
